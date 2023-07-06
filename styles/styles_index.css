@@ -1,6 +1,54 @@
---root{
+html{
+    font-family: consolas;
+}
+:root{
     --dark-gray: #212121;
+    --aquamarine: #00c480;
+    --orange: #d66b00;
 }
 body{
     background-color: var(--dark-gray);
 }
+.middle-content{
+    width: 30%;
+    position: absolute;
+    right: 35%;
+    top: 10%;
+}
+.my-photo{
+    width: 150px;
+    height: 150px;
+    filter: drop-shadow(7px 7px 7px black);
+    -webkit-filter: drop-shadow(7px 7px 7px black); 
+}
+.main-info{
+    display: flex;
+}
+.my-photo{
+    margin-right: 50px;
+}
+h1, h3{
+    color: white;
+}
+
+p{
+    color: var(--aquamarine);
+}
+.social-media-account{
+    display: flex;
+    font-size: 20px;
+    text-decoration: none;
+}  
+.social-media-account:hover{
+    color: var(--orange);
+    text-shadow: 10px 5px 5px #000;
+}
+.social-media-account:visited{
+    text-decoration: none;
+} 
+#social-media-icon{
+    width: 30px;
+    height: 30px;
+    color: var(--aquamarine);
+}
+ 
