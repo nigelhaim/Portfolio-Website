@@ -25,7 +25,6 @@ body{
     opacity: 0.9;
 }
 .middle-content{
-    background-color: var(--dark-gray); 
     border: 1px white;
     padding: 50px;
     overflow: auto;
@@ -35,6 +34,7 @@ body{
     right: 30%;
     top: 10%;
     overflow-x: hidden;
+    background-color: var(--dark-gray);
 }
 .my-photo{
     width: 150px;
