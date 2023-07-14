@@ -7,12 +7,33 @@ html{
     --orange: #d66b00;
 }
 body{
+    background-size: fill;
+    background-repeat: no-repeat;
+    height: 100%;
     background-color: var(--dark-gray);
 }
+.background{
+    background: src("/Media/Wacks");
+    height: 100%;
+    width: 100%;
+    filter: blur(10px);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    position: fixed;
+    opacity: 0.9;
+}
 .middle-content{
+    background-color: var(--dark-gray); 
+    border: 1px white;
+    padding: 50px;
+    overflow: auto;
+    box-shadow: 10px 10px 30px 5px;
     width: 30%;
     position: absolute;
-    right: 35%;
+    right: 30%;
     top: 10%;
 }
 .my-photo{
@@ -51,4 +72,13 @@ p{
     height: 30px;
     color: var(--aquamarine);
 }
- 
+.school-logo{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    position: relative;
+    top: 8px;
+}
+.my-projects, .main-education, .bio-head, .contact-me{
+    color: var(--orange);
+}
