@@ -13,10 +13,9 @@ body{
     background-color: var(--dark-gray);
 }
 .background{
-    background: src("/Media/Wacks");
     height: 100%;
     width: 100%;
-    filter: blur(10px);
+    filter: blur(15px);
     top: 0;
     bottom: 0;
     left: 0;
@@ -35,6 +34,7 @@ body{
     position: absolute;
     right: 30%;
     top: 10%;
+    overflow-x: hidden;
 }
 .my-photo{
     width: 150px;
@@ -81,4 +81,12 @@ p{
 }
 .my-projects, .main-education, .bio-head, .contact-me{
     color: var(--orange);
+}
+.my-certifications{
+    color: var(--orange);
+}
+.certification-image{
+    height: 20vh;
+    box-shadow: 10px 10px 20px 5px black;
+    border: 10px white;
 }
