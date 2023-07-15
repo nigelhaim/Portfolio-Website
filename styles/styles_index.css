@@ -86,7 +86,13 @@ p{
     color: var(--orange);
 }
 .certification-image{
-    height: 20vh;
+    width: 30vh;
     box-shadow: 10px 10px 20px 5px black;
     border: 10px white;
 }
+.project_link{
+  width: 30vh;
+  padding:2px;
+  box-shadow: 10px 10px 30px 5px black;
+}
+
