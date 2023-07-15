@@ -86,13 +86,33 @@ p{
     color: var(--orange);
 }
 .certification-image{
-    width: 30vh;
+    width: 49%;
     box-shadow: 10px 10px 20px 5px black;
     border: 10px white;
 }
 .project_link{
-  width: 30vh;
+  width: 48%;
   padding:2px;
   box-shadow: 10px 10px 30px 5px black;
 }
-
+@media screen and (max-width:800px){
+  .main-info{
+    display:block;
+  } 
+  .middle-content{
+    width:50%;
+    right:10%;
+    text-align:center;
+  }
+  .project_link{
+    width:95%;
+    padding-bottom:5px;
+  }
+  .certification-image{
+    width:90%;
+    padding-bottom:5px;
+  }
+  #social-media-icon{
+    text-align:left;
+  }
+}
